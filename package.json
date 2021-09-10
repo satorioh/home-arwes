@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && PORT=2077 npm start",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "pm2 start npm --name fe:portalArwes --log-type=json --log-date-format 'YYYY-MM-DD HH:mm:ss' -- run build"
   },
   "dependencies": {
     "@arwes/animation": "^1.0.0-alpha.19",
