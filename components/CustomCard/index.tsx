@@ -12,7 +12,7 @@ const CustomCard = ({ title, btnText, url, description }: CustomCardProps) => {
           </a>
         </Button>
       }
-      style={{ maxWidth: 400, height: 250 }}
+      style={{ maxWidth: 400, height: 250, marginTop: -40 }}
     >
       <Text>{description}</Text>
     </Card>

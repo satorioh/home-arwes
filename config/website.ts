@@ -9,7 +9,7 @@ const website = [
   {
     title: "LGP Logger",
     btnText: "Enter",
-    url: "http://10.1.60.26:3000/",
+    url: "http://10.1.60.26:3000/explore",
     description:
       "The LGP logging system can record the logs of each application in real time and display them on the interface in a unified summary.",
   },

@@ -13,6 +13,16 @@ const animatorGeneral = { duration: { enter: 200, exit: 200, stagger: 30 } };
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
+      <video
+        className={styles.bgVideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="auto"
+      >
+        <source src="/assets/videos/Earth.mp4" type="video/mp4" />
+      </video>
       <ArwesThemeProvider>
         <StylesBaseline styles={globalStyles} />
         <CustomBleepsProvider>
